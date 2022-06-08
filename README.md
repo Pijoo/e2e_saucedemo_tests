@@ -13,5 +13,7 @@ to start the test with cypress UI:
 # Next steps
 
 add eslint and prettier
+
 move the selectors to seperate folders
+
 add dotenv plugin to cypress to take vulnerable data (like user login data) from .env file
