@@ -63,7 +63,7 @@ describe("Login tests", () => {
     })
 
     it("Check if confirmation message is displayed: 'THANK YOU FOR YOUR ORDER'", () => {
-        cy.getByDataTestet("finish").click();
+        cy.getByDataTest("finish").click();
         cy.get(".complete-header").contains("THANK YOU FOR YOUR ORDER").should("be.visible");
     })
 });
